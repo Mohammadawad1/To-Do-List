@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Add styles for separate lines */
+.search-container {
+    margin-bottom: 10px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.input-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Rest of the CSS styles */
+.container {
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text {
+    overflow-wrap: break-word;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+span {
+    margin-right: 5px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.pending {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.priority {
+    margin-left: 10px;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task-actions button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit-actions {
+    display: none;
+}
